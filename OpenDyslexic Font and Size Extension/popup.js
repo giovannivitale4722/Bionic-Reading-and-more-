@@ -3,6 +3,11 @@ document.addEventListener('DOMContentLoaded', function () {
   const fontToggle = document.getElementById('fontToggle');
   const fontSizeDisplay = document.querySelector('.font-size-display');
   const applyBtn = document.getElementById('applyBtn');
+const fontSizeValue = document.getElementById("fontSizeValue");
+
+fontSizeSlider.addEventListener("input", function () {
+  fontSizeValue.innerText = fontSizeSlider.value + "px";
+});
 
   // Load saved settings
   chrome.storage.sync.get(["fontSize", "useDyslexicFont"], function (data) {
