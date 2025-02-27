@@ -81,7 +81,7 @@ cd your-repo <br>
 | Name             | Role                           | GitHub | LinkedIn |  
 |-----------------|--------------------------------|--------|---------|  
 | **Giovanni Vitale**  | Backend Developer           | [GitHub](https://github.com/giovannivitale4722) | [LinkedIn](https://www.linkedin.com/in/giovanni-v) |  
-| **Hou Wai Yip**     | Frontend & Backend Developer  | [GitHub](#) | [LinkedIn](#) |  
+| **Hou Wai Yip**     | Frontend & Backend Developer  | [GitHub](https://github.com/hYip6) | [LinkedIn](https://www.linkedin.com/in/hou-wai-yip-56ba75312/) |  
 | **Justin Lee**      | Backend Developer            | [GitHub](https://github.com/Comb9t) | [LinkedIn](https://www.linkedin.com/in/justinyuillee) |  
 | **Evan Xia**        | Frontend Developer           | [GitHub](#) | [LinkedIn](#) |  
 ## 🚀 Future Improvements
