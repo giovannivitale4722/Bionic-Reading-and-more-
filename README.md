@@ -83,7 +83,7 @@ cd your-repo <br>
 ## 👥 Team
 | Name             | Role                           | GitHub | LinkedIn |  
 |-----------------|--------------------------------|--------|---------|  
-| **Giovanni Vitale**  | Backend Developer           | [GitHub](#) | [LinkedIn](#) |  
+| **Giovanni Vitale**  | Backend Developer           | [GitHub](#https://github.com/giovannivitale4722) | [LinkedIn](#www.linkedin.com/in/giovanni-v) |  
 | **Hou Wai Yip**     | Frontend & Backend Developer  | [GitHub](#) | [LinkedIn](#) |  
 | **Justin Lee**      | Backend Developer            | [GitHub](#) | [LinkedIn](#) |  
 | **Evan Xia**        | Frontend Developer           | [GitHub](#) | [LinkedIn](#) |  
