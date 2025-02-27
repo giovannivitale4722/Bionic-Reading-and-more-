@@ -82,7 +82,7 @@ cd your-repo <br>
 |-----------------|--------------------------------|--------|---------|  
 | **Giovanni Vitale**  | Backend Developer           | [GitHub](https://github.com/giovannivitale4722) | [LinkedIn](https://www.linkedin.com/in/giovanni-v) |  
 | **Hou Wai Yip**     | Frontend & Backend Developer  | [GitHub](#) | [LinkedIn](#) |  
-| **Justin Lee**      | Backend Developer            | [GitHub](#) | [LinkedIn](#) |  
+| **Justin Lee**      | Backend Developer            | [GitHub](https://github.com/Comb9t) | [LinkedIn](https://www.linkedin.com/in/justinyuillee) |  
 | **Evan Xia**        | Frontend Developer           | [GitHub](#) | [LinkedIn](#) |  
 ## 🚀 Future Improvements
 - Customizable Bolding Patterns – Allow users to adjust the strength of Bionic Reading emphasis to match their reading style. <br>
