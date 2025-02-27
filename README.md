@@ -28,7 +28,7 @@ We developed this project using HTML, CSS, and JSON, leveraging Google’s exten
 
 ## 🎥 Demo
 
-### Watch the Demo(https://www.youtube.com/watch?v=-yP2iG83VUM)
+### Demo: https://www.youtube.com/watch?v=-yP2iG83VUM
 
 ## ✨ Features
 - Real-time speech-to-text translation
