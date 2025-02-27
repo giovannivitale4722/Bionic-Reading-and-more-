@@ -95,4 +95,5 @@ cd your-repo <br>
 - AI-Powered Personalization – Implement an AI-based system that adapts bolding intensity based on user reading patterns. <br>
 
 ## 📜 License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License.<br>
+![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
