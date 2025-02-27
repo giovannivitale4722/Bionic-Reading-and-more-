@@ -27,11 +27,8 @@ Our project enhances digital reading experiences by introducing:
 We developed this project using HTML, CSS, and JSON, leveraging Google’s extension framework to create a lightweight and efficient browser extension. With a single click, users can activate Bionic Reading mode or customize fonts to suit their needs.
 
 ## 🎥 Demo
-Add a live demo link (if hosted)
-Include screenshots or a short GIF/video showcasing the project
-Example:
 
-### Watch the Demo
+### Watch the Demo(https://www.youtube.com/watch?v=-yP2iG83VUM)
 
 ## ✨ Features
 - Real-time speech-to-text translation
