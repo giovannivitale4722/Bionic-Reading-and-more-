@@ -83,7 +83,7 @@ cd your-repo <br>
 | **Giovanni Vitale**  | Backend Developer           | [GitHub](https://github.com/giovannivitale4722) | [LinkedIn](https://www.linkedin.com/in/giovanni-v) |  
 | **Hou Wai Yip**     | Frontend & Backend Developer  | [GitHub](https://github.com/hYip6) | [LinkedIn](https://www.linkedin.com/in/hou-wai-yip-56ba75312/) |  
 | **Justin Lee**      | Backend Developer            | [GitHub](https://github.com/justinlee166) | [LinkedIn](https://www.linkedin.com/in/justinyuillee) |  
-| **Evan Xia**        | Frontend Developer           | [GitHub](#) | [LinkedIn](#) |  
+| **Evan Xia**        | Frontend Developer           | [GitHub](#) | [LinkedIn](https://www.linkedin.com/in/evan-xia-b18a47296/) |  
 ## 🚀 Future Improvements
 - Customizable Bolding Patterns – Allow users to adjust the strength of Bionic Reading emphasis to match their reading style. <br>
 - More Font & Color Customization – Expand dyslexia-friendly settings, including background colors and line spacing options. <br>
