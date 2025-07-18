@@ -1,61 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Font Changer</title>
-  <style>
-    body {
-      width: 250px;
-      padding: 15px;
-      font-family: Arial, sans-serif;
-      background-color: #2C3930;
-      color: #DCD7C9;
-    }
-    label {
-      font-size: 14px;
-      display: block;
-      margin: 10px 0;
-    }
-    input[type="range"] {
-      width: 100%;
-    }
-    .font-size-display {
-      font-size: 12px;
-      color: #333;
-      margin-top: 5px;
-    }
-    button {
-      margin-top: 15px;
-      padding: 8px;
-      width: 100%;
-      background: #007bff;
-      color: white;
-      border: none;
-      cursor: pointer;
-    }
-    button:hover {
-      background: #0056b3;
-    }
-  </style>
+<meta charset="UTF-8">
+<title>Font Changer</title>
+<style>
+  body {
+    width: 300px;
+    padding: 20px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #222;
+  }
+
+  label {
+    font-size: 16px;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #555;
+  }
+
+  input[type="range"] {
+    width: 100%;
+    margin-top: 5px;
+    -webkit-appearance: none;
+    height: 6px;
+    background: #ddd;
+    border-radius: 3px;
+    outline: none;
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    background: #007bff;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    margin-top: -6px;
+  }
+
+  input[type="range"]::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    background: #007bff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  #fontSizeValue {
+    display: inline-block;
+    margin-top: 8px;
+    font-weight: bold;
+    color: #007bff;
+    font-size: 16px;
+  }
+
+  .toggle-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  .toggle-container input {
+    margin-right: 10px;
+  }
+
+  .toggle-container label {
+    margin: 0;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  button {
+    margin-top: 25px;
+    padding: 12px;
+    width: 100%;
+    background: #007bff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+
+  button:hover {
+    background: #0056b3;
+  }
+
+  .section {
+    margin-bottom: 20px;
+  }
+</style>
 </head>
+
 <body>
   <h2>Font Settings</h2>
 
-  <!-- Font Size Slider -->
-  <label for="fontSizeSlider">Font Size:</label>
-  <input type="range" id="fontSizeSlider" min="10" max="50" value="16">
-  <span id="fontSizeValue" style="color: #DCD7C9; font-weight: bold;">16px</span>
+  <div class="section">
+    <!-- Font Size Slider -->
+    <label for="fontSizeSlider">Font Size</label>
+    <input type="range" id="fontSizeSlider" min="10" max="50" value="16">
+    <span id="fontSizeValue">16px</span>
+  </div>
 
-
-  <!-- Font Toggle -->
-  <label>
+  <div class="section toggle-container">
+    <!-- Font Toggle -->
     <input type="checkbox" id="fontToggle">
-    Enable OpenDyslexic Font
-  </label>
+    <label for="fontToggle">Enable OpenDyslexic Font</label>
+  </div>
 
-  <!-- Apply Changes Button -->
   <button id="applyBtn">Apply Changes</button>
 
-  <script src="popup.js"></script>
+<script src="popup.js"></script>
 </body>
 </html>
